@@ -1,0 +1,211 @@
+/* Diseño de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header, footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar a:hover {
+    color: #f02fb6;
+  }
+  
+  .logo {
+    width: 40px;
+    vertical-align: middle;
+  }
+
+  .main-header {
+    background-color: #f02fb6;
+    color: white;
+    padding: 10px 0;
+  }
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+  }
+  .center-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .text-content {
+    max-width: 100%;
+    text-align: justify;
+  }
+  
+  .acerca-section, .goals-section, .travel-table, .contact-section {
+    padding: 40px 20px;
+    text-align: justify;
+  }
+  
+  .table-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f02fb6;
+    color: white;
+    text-align: center;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: white;
+  }
+  footer {
+    background-color: #222;
+    padding: 15px 0;
+    color: white;
+  }
+  
+  .header-section {
+    text-align: center;
+    background-color: #f02fb6;
+    padding: 20px 20px;
+  }
+  
+  .header-section h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .header-section p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .acerca-section li{
+    color: #555;
+  }
+  
+  .goals-section {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .goal-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .goal-item h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .goal-list {
+    list-style-type:disc;
+    padding-left: 20px;
+  }
+  
+  .goal-list li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .goal-list li a {
+    color: #f752e1;
+    text-decoration-line: underline;
+  }
+  
+  .goal-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos Responsivos */
+  @media (max-width: 768px) {
+    .navbar li {
+      margin: 0 10px;
+    }
+  
+    .goal-item {
+      padding: 15px;
+    }
+  
+    .goal-list {
+      padding-left: 10px;
+    }
+  }
+    
+  
+
