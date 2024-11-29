@@ -8,13 +8,12 @@ El proyecto fue desarrollado siguiendo las mejores prácticas en estructuración
 
 ## Objetivos
 
-- * Construir una página web funcional que utilice HTML para estructurar el contenido y CSS para estilizarlo.
-- * Familiarizarse con las buenas prácticas de estructuración de archivos y gestión de proyectos, como la organización de carpetas y archivos CSS.
+- Construir una página web funcional que utilice HTML para estructurar el contenido y CSS para estilizarlo.
+- Familiarizarse con las buenas prácticas de estructuración de archivos y gestión de proyectos, como la organización de carpetas y archivos CSS.
 
 ## Tecnologías Utilizadas
 
-- * HTML: Utilizado para la estructura básica de la página web.
-- * CSS: Aplicado para estilizar y mejorar la apariencia visual de la página.
-- * Editor de Texto: Visual Studio Code
-- * Navegador Web: Google Chrome  (para visualizar la página web).
-"# Pagina-Web-Personal" 
+- HTML: Utilizado para la estructura básica de la página web.
+- CSS: Aplicado para estilizar y mejorar la apariencia visual de la página.
+- Editor de Texto: Visual Studio Code
+- Navegador Web: Google Chrome  (para visualizar la página web).
